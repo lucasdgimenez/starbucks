@@ -5,7 +5,7 @@ body {
 }
 
 img {
-  display: block;
+  display: inline-block;
 }
 
 header .line {
@@ -68,4 +68,33 @@ header .line {
 .header_menu img {
   width: 24px;
   height: 24px;
+}
+
+.banner {
+  background-image: url('../img/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+
+.banner h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 100px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.banner_images {
+  margin-top: 60px;
+}
+
+.banner_images img {
+  width: 148px;
+  height: 148px;
+  border: 6px solid #117050;
+  border-radius: 50%;
+  margin-right: 30px;
 }
