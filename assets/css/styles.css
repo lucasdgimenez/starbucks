@@ -173,10 +173,6 @@ header .line {
   padding: 80px;
 }
 
-.area2_quote {
-  margin-bottom: 30px;
-}
-
 .area2_text {
   margin-bottom: 60px;
 }
@@ -198,4 +194,57 @@ header .line {
   background-image: url('../img/f3.jpg');
   background-size: cover;
   background-position: center;
+}
+
+/* AREA 3 */
+.area3 {
+  display: grid;
+	grid-template-columns: 3fr 1fr;
+
+}
+
+.area3_content {
+  padding: 200px 80px;
+  background-image: url('../img/bg2.jpg');
+  background-size: cover;
+  background-position: left;
+}
+
+.area3_text {
+  margin-bottom: 60px;
+}
+
+.area3_img img, .area4_img img, .area5_img img {
+  max-width: 640px;
+}
+
+.area4, .area5 {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  background-color: #e8e9ee;
+}
+
+.area4_content {
+  padding: 150px 80px;
+}
+
+.area4_text {
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+
+.area5 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.area5 div {
+  margin: 10px auto;
+}
+
+footer {
+  background-color: #454545;
+  color: white;
+  padding: 80px;
+  text-align: center;
 }
